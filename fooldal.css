@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(#002936, #00352e);
+    background-repeat: repeat;
+    
+}
+
+.teljesmenu {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lemegy {
+    position: relative;
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    width: 150px;
+    line-height: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: width .4s;
+}
+
+.lemegy.nagyobb {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+} 
+
+ul {
+    list-style: none;
+    position: absolute;
+    display: block;
+    background: black;
+    top: 65px;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+    border-radius: 5px;
+    display: none; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+ul::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: black;
+    top: -10px;
+    right: 150px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+ul li {
+    line-height: 35px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid lightblue;
+    cursor: pointer;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:hover {
+    box-shadow: inset 0 0 5px #33ccff,
+                inset 0 0 10px #66ccff;
+}
+
+ul li:hover:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+ul li:hover:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: aqua;
+}

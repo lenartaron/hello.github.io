@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feliratkozas.css">
+    <link rel="shortcut icon" type="image/png" href="../../../Projekt2023/image/icon.png">
+    <script src="feliratkozas.js"></script>
+    <title>Iratkozz fel!</title>
+</head>
+<body>
+    <form action="" id="myForm">
+        <div class="beír">
+            <label for="name"></label>
+            <input type="text" id="kname" placeholder="Keresztnév" required><br><br>
+
+            <label for="name"></label>
+            <input type="text" id="vname" placeholder="Vezetéknév" required><br><br>
+            
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="Email" required><br><br>
+        </div>
+        <p class="szoveg" id="ideir3" style="visibility: hidden;"></p>
+        <label class="szoveg" for="szabalyzat">Kérlek fogadd el a <a href="Szabalyzat/szabalyzat.html" target="_blank" class="szoveg" id="szabalyzat">szabályzatot</a>  </label>
+        <input type="checkbox" id="szabalyzat" required><br><br><br>
+        <element id="gomb">
+            <label for="fooldalra"></label>
+            <a href="../Fooldal.html"><input type="button" id="test" value="Vissza a főoldalra" ></a>
+
+            <input type="button" id="test" value="Feliratkozom" onclick="vizsgal()">
+        </element>
+      </form>
+</body>
+</html>
+
+
+

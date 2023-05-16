@@ -1,0 +1,45 @@
+html {
+    background-image: linear-gradient(76deg,rgba(48, 48, 206, 0.609) 0%, rgba(48, 148, 206, 0.609) 75%);
+}
+#myForm {
+    border: 2px solid rgba(95, 48, 206, 0.609);
+    margin: 300px 400px; 
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+    background-image: linear-gradient(76deg,rgba(48, 148, 206, 0.609) 0%, rgba(48, 48, 206, 0.609) 75%);
+
+}
+input {
+    text-align: center;
+}
+#test{
+    background-image: linear-gradient(4deg,rgb(48, 109, 206) 0%, rgb(48, 148, 206) 75%);
+    border: 2px solid rgb(95, 48, 206);
+    border-radius: 10px;
+    padding: 1%;
+    color: rgb(187, 213, 255);
+    text-shadow: 2px 2px 2px rgba(5, 5, 238, 0.219);
+}
+#test:hover {
+    background-image: linear-gradient(4deg,rgb(48, 148, 206) 0%, rgb(48, 109, 206) 75%);
+    border: 2px solid rgb(95, 48, 206);
+    color: rgba(5, 59, 238, 0.746);
+    text-shadow: 1px 1px 5px rgba(5, 5, 238, 0.479);
+}
+.beír > input {
+    border: 2px solid rgb(95, 48, 206);
+    border-radius: 4px;
+    padding: 1%;
+    width: 80%;
+    background-image: linear-gradient(4deg,rgb(214, 239, 255) 0%,rgb(198, 219, 253) 75%);
+}
+
+.szoveg {
+    color: rgb(209, 226, 255);
+    text-shadow: 1px 1px 5px rgba(67, 103, 165, 0.842);
+}
+
+#szabalyzat:hover{
+    color: rgba(125, 40, 236, 0.746);
+}

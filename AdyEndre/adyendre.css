@@ -1,0 +1,63 @@
+body {
+  background-image: linear-gradient(73deg, rgb(0, 51, 0) 50%, rgba(0, 122, 0, 0.87) 75%);
+  text-shadow: 1px 1px 10px rgba(50, 122, 0, 0.87);
+  color: rgb(187, 240, 187);
+}
+
+#konyvjelzo {
+  background-color: rgba(185, 185, 185, 0.438);
+  border: 2px solid rgba(92, 92, 92, 0.342);
+}
+
+img {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Alinkekert button a {
+color: rgb(149, 228, 149);
+}
+
+.Alinkekert button a:hover {
+color: rgb(148, 192, 148);
+}
+
+.Alinkekert li a:hover {
+border-bottom: 2px solid rgba(148, 192, 148, 0.342);
+}
+button a:defined {
+border-bottom: 2px solid rgba(148, 192, 148, 0.342);
+}
+
+#lista {
+background-color: rgba(185, 185, 185, 0.438);
+border: 2px solid rgba(92, 92, 92, 0.342);
+}
+
+#szoveg {
+  background-color: rgba(185, 185, 185, 0.438)!important;
+  border: 2px solid rgba(92, 92, 92, 0.342);
+}
+
+.menu-mobile {
+  background: #996633;
+  -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#feliratkozaszoveg {
+  color: #FFFDD0;
+}
+
+#feliratkozas #feliratkozaszoveg:hover {
+  background: #996633 no-repeat fixed;
+  color: rgb(0, 0, 0);
+}
+
+#feliratkozas #feliratkozaszoveg:link {
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(-73deg, rgb(49, 1, 13) 50%, rgba(76, 0, 19, 0.644) 75%);
+  text-shadow: 1px 1px 10px rgba(56, 56, 56, 0.849);
+  color: aliceblue;
+}
+
+.menu-mobile {
+  background: #6023d1;
+  -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#feliratkozasszoveg {
+  color: #ff9900;
+}
+
+#feliratkozas #feliratkozasszoveg:hover {
+  background: #6023d1 no-repeat fixed;
+  color: rgb(255, 204, 102);
+}
+
+#feliratkozas #feliratkozasszoveg:link {
+  text-decoration: none;
+}
+
+#konyvjelzo {
+  background-color: rgba(90, 2, 49, 0.561);
+  border: 2px solid rgba(212, 106, 18, 0.829);
+}
+
+#szoveg {
+  background-color: rgba(90, 2, 49, 0.561);
+  border: 2px solid rgba(212, 106, 18, 0.829);
+}
+
+.Alinkekert button a {
+color:aliceblue;
+}
+
+#oldal {
+  color:aliceblue;
+}
+.Alinkekert button a:hover {
+color: rgb(245,245,220);
+}
+
+.Alinkekert li a:hover {
+border-bottom: 2px solid rgba(245,245,220, 0.281);
+}
+
+button a:defined {
+border-bottom: 2px solid rgba(212, 106, 18, 0.829);
+}
+
+#lista {
+background-color: rgba(90, 2, 49, 0.561);
+border: 2px solid rgba(212, 106, 18, 0.829);
+}
