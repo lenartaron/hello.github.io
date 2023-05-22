@@ -13,3 +13,5 @@ $(document).ready(function(){
        }
     });
 });
+
+document.getElementById("valami").innerHTML = " ";
